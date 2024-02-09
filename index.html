@@ -49,6 +49,7 @@
 
     <!-- Bootstrap contains a grid system you can explore https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp -->
     <!-- It can be useful for placement of information -->
+    <!--
     <div class="container">
         <div class="row p-3">
             <div class="col-sm-3 pl-5">Service</div>
@@ -56,13 +57,14 @@
             <div class="col-sm-3">Payment</div>
             <div class="col-sm-3">Where to find us</div>
         </div>
+    -->
     </div>
 
     <!-- When you have messages to tell, remember that center align is not always the best choice -->
     <!--
     <div class="container-md p-3 my-3 border bg-light text-success">
-        <h3>Let us tell you about our expertise</h3>
-        <p></p>
+        <h3>Let us tell you about our expertise:</h3>
+       
         
     </div>
     -->
@@ -79,20 +81,18 @@
                 <th>Service</th>
                 <th></th>
                 <th>Description</th>
-                <th></th>
-                <th>Select Appointment Type or Types</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>Tire Pumping</td>
+                <td>Tire Pumping: 15.99$ CAD</td>
                 <td><img src="images/tire.jpg" alt="Tire" style="max-height: 105px;"></td>
                 <td>We'll use our in-house air-pump to inflate your tires whenever they're running low on air! 
                     (Note: This comes free with any other service!)</td>
                 <td><input type="checkbox" id="tire" name="tire" value="tire"></td>
             </tr>
             <tr>
-                <td>Brake Repair</td>
+                <td>Brake Repair: ~39.99$ CAD</td>
                 <td><img src="images/brakes.jpg" alt="Brakes" style="max-height: 105px;"></td>
                 <td>We'll try and diagnose the issue (or confirm it if you know what it is already), and use
                     our expertise and abundance of tools to get your brakes fixed up! Time taken depends on exact
@@ -100,11 +100,11 @@
                 <td><input type="checkbox" id="brake" name="brake" value="brake"></td>
             </tr>
             <tr>
-                <td>Chain Maintenance</td>
+                <td>Chain Maintenance: 39.99$ CAD - 68.99$ CAD</td>
                 <td><img src="images/chain.jpg" alt="Chain" style="max-height: 105px;"></td>
                 <td>Have a bike chain which broke loose that just won't go back on, or that broke entirely? Or do you
                     just need to get your bike chain lubricated? We can do that for you! (Note: if any parts need to
-                    to be replaced, there will be an extra charge).</td>
+                    to be replaced, there will be an extra charge. We will never charge you over 68.99 however!).</td>
                 <td><input type="checkbox" id="chain" name="chain" value="chain"></td>
             </tr>
             </tbody>
@@ -220,6 +220,12 @@
                 <div id="collapseService" class="collapse show" data-parent="#accordion">
                     <div class="card-body">
                         <p>Here is our list of services</p>
+                        <input type="radio" name="service" id="tire"  value="tire">
+                        <label for="tire">Tire Pumping</label><br>
+                        <input type="radio" name="service" id="brake" value="brake">
+                        <label for="brake">Brake Repair</label><br>
+                        <input type="radio" name="service" id="chain" value="chain">
+                        <label for="chain">Chain Maintenance</label>
                     </div>
                 </div>
             <div class="card">
