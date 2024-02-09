@@ -33,17 +33,28 @@
     <!-- Look in BS4 Typography https://www.w3schools.com/bootstrap4/bootstrap_typography.asp -->
     <!-- Use your own CSS file to change those fonts if they do not correspond to your company's look -->
     <div class="container-md p-3 my-3 border bg-dark text-white">
-        <h1>Welcome to Quick Fix!</h1>
-        <p>The fastest, and most consistent bike repair shop in Ottawa!</p>
+        <div class="row">
+            <div class="col">
+                <h1>Welcome to Quick Fix!</h1>
+                <p>The fastest, and most consistent bike repair shop in Ottawa!</p>   
+            </div>
+            <div class="col-auto">
+                <img src="logo.png" alt="Logo" style="max-height: 105px;">
+            </div>
+        </div>
+        
+        
     </div>
 
     <!-- Bootstrap contains a grid system you can explore https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp -->
     <!-- It can be useful for placement of information -->
-    <div class="row p-3">
-        <div class="col-sm-3 pl-5">Service</div>
-        <div class="col-sm-3">Calendar</div>
-        <div class="col-sm-3">Payment</div>
-        <div class="col-sm-3">Where to find us</div>
+    <div class="container">
+        <div class="row p-3">
+            <div class="col-sm-3 pl-5">Service</div>
+            <div class="col-sm-3">Calendar</div>
+            <div class="col-sm-3">Payment</div>
+            <div class="col-sm-3">Where to find us</div>
+        </div>
     </div>
 
     <!-- When you have messages to tell, remember that center align is not always the best choice -->
