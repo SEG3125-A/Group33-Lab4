@@ -5,9 +5,9 @@ Erwind: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpi
 
 Michelle: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fstock-photo%2Ffemale_mechanic_cartoon.html&psig=AOvVaw1D4iJtyBmCtdRCDG3ouzFQ&ust=1707598577255000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCmlc-Sn4QDFQAAAAAdAAAAABAI
 
-Chain:
+Chain: https://www.google.com/url?sa=i&url=https%3A%2F%2Fhub.chainreactioncycles.com%2Fbuying-guides%2Fcomponents%2Fchains-buying-guide%2F&psig=AOvVaw3yIWldemqVArkp0dGzfhn-&ust=1707600233506000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLDe-9yYn4QDFQAAAAAdAAAAABAE
 
-Tire:
+Tire: https://www.google.com/url?sa=i&url=https%3A%2F%2Fhaynes.com%2Fen-gb%2Ftips-tutorials%2Fhow-replace-bike-tyre&psig=AOvVaw29uM1_YAJ_mvdnOUx4vYhD&ust=1707600312864000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMib8IKZn4QDFQAAAAAdAAAAABAE
 
-Brake:
+Brake: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mayacycle.com%2Fbike-brakes%2F&psig=AOvVaw3OI2c2WLzy6ts-cmU0DjC4&ust=1707600350370000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIDf1ZSZn4QDFQAAAAAdAAAAABAH
 
