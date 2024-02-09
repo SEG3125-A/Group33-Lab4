@@ -43,8 +43,6 @@
                 <img src="images/logo.png" alt="Logo" style="max-height: 130px;">
             </div>
         </div>
-        
-        
     </div>
 
     <!-- Bootstrap contains a grid system you can explore https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp -->
@@ -133,44 +131,6 @@
     -->
 
 
-    <!-- Including a modal https://www.w3schools.com/bootstrap4/bootstrap_modal.asp -->
-    <!-- Modals are useful for additional information or questions -->
-    <!-- Here the modal is used for a little survey -->
-    <div class="container">
-        <h2>Modal Example</h2>
-        <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mySurvey">Open Survey</button>
-          
-        <!-- Modal -->
-        <div class="modal fade" id="mySurvey" role="dialog">
-            <div class="modal-dialog">  
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <h2>How did you hear about us?</h2>
-                        <p>Tell us:</p>
-                        <form>
-                          <div class="checkbox">
-                            <label><input type="checkbox" value="">Option 1</label>
-                          </div>
-                          <div class="checkbox">
-                            <label><input type="checkbox" value="">Option 2</label>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>     
-        </div>
-        </div>    
-    </div>
-
     <!-- Presenting the staff with cards: https://www.w3schools.com/bootstrap4/bootstrap_cards.asp -->
     <!-- Card columns allows multiple cards next to each other -->
     <!-- The first card's button doesn't go anywhere, it could be a modal --> 
@@ -195,14 +155,14 @@
                     <h4 class="card-title">Erwind</h4>
                     <p class="card-text">Erwind knows all about bikes.</p>
                 </div>
-                <br>
+            </div>
+            <br>
             <div class="card bg-warning" style="width:200px">
                 <img class="card-img-top" src="images/michelle.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title">Michelle</h4>
                     <p class="card-text">Michelle is always ready to fix the most challenging issues with a smile.</p>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -221,7 +181,6 @@
         -->
         <div id="accordion">
             <h2>Book an Appointment</h2>
-            <form>
             <div class="card">
                 <div class="card-header">
                     <a class="card-link" data-toggle="collapse" href="#collapseService">Choose a service</a>
@@ -237,6 +196,7 @@
                         <label for="chain">Chain Maintenance</label>
                     </div>
                 </div>
+            </div>
             <div class="card">
                 <div class="card-header">
                     <a class="collapsed card-link" data-toggle="collapse" href="#collapseDate">Choose a date</a>
@@ -261,7 +221,7 @@
                 </div>
                 <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
                     <div class="card-body">
-                        
+                        <form>
                             <p>Please enter your information so we can contact you:</p>
                             <label for="name" class="form-label">Name</label>
                             <input type="name" id="name" class="form-control">
@@ -278,6 +238,48 @@
         </div>
     </div>
     <br>
+
+    <div class="container mb-3">
+            <!-- Including a modal https://www.w3schools.com/bootstrap4/bootstrap_modal.asp -->
+        <!-- Modals are useful for additional information or questions -->
+        <!-- Here the modal is used for a little survey -->
+        <h2>Have a Question?</h2>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mySurvey">Contact Us</button>
+          
+        <!-- Modal -->
+        <div class="modal fade" id="mySurvey" role="dialog">
+            <div class="modal-dialog">  
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <h2>Send us your questions:</h2>
+                        <p>We'll get back to you shortly with a reply</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="question">Question:</label>
+                                <textarea class="form-control" id="question" rows="3"></textarea>
+                            </div>
+                            <button class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>     
+            </div>
+        </div>   
+    </div>
 
 </body>
 </html>
