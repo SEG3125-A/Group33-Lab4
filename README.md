@@ -13,3 +13,5 @@ Tire: https://www.google.com/url?sa=i&url=https%3A%2F%2Fhaynes.com%2Fen-gb%2Ftip
 
 Brake: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mayacycle.com%2Fbike-brakes%2F&psig=AOvVaw3OI2c2WLzy6ts-cmU0DjC4&ust=1707600350370000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIDf1ZSZn4QDFQAAAAAdAAAAABAH
 
+Radio button was inspired by w3 schools: https://www.w3schools.com/tags/att_input_type_radio.asp
+
